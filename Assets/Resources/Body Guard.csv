@@ -1,0 +1,13 @@
+Name,Cost,Text,Type,RangeIndex1,RangeIndex2,Target,Object,effect index
+사전준비,0,적 대상이 다음 카드로 입는 피해량을 1 증가시킵니다.,DEFAULT,1,0,ENEMY,SINGLE,Slashing_04_v2
+잽,1,적 대상을 골라 2의 피해를 입힙니다. 카드를 1장 드로우합니다.,DEFAULT,1,0,ENEMY,SINGLE,Slashing_01_v2
+격돌,1,적 대상을 골라 1의 피해를 입힙니다. 대상은 30초간 이동불가 상태가 됩니다.,RANGE,4,2,ENEMY,SINGLE,Slashing_06_v2
+가속,1,3칸을 이동합니다. 카드를 1장 드로우합니다.,DEFAULT,3,0,TILE,NONE,Buff_01_v2
+강타,2,적 대상을 골라 4의 피해를 입힙니다. 대상 뒤에 공간이 있을 경우 2칸 밀려납니다,SIX,1,0,ENEMY,SINGLE,Slashing_dark_v2
+돌진,2,적 대상을 골라 1의 피해를 입힙니다. 이동한 헥스마다 1의 피해가 추가됩니다.,DEFAULT,3,0,TILE,NONE,"이동 : Shoot_04_v2 공격 : Slashing_fire_v2"
+보호,2,4칸 주변에 있는 아군의 주변을 지정해서 이동합니다. 아군과 자신이 방어도를 4얻습니다.,DEFAULT,4,0,FRIENDLY,SINGLE,Buff_02_v2
+로켓 그랩,2,적 대상을 골라 1의 피해를 입힙니다. 대상을 자신의 앞으로 끌어옵니다.,SIX,20,0,ENEMY,SINGLE,"투사체 : Shoot_02_v2 폭발 없이 투사체랑 적이 같이 돌아옴"
+반격,3,적 대상을 골라 3의 피해를 입힙니다. 피해를 입은 후 15초 내에 사용 시 행동력 소모가 1이 됩니다.,DEFAULT,2,0,ENEMY,SINGLE,Slashing_05_v2
+철벽,3,방어도 6을 획득합니다.,ALL,20,0,ALL,NONE,Buff_water_v2
+처형,4,피해를 3입힙니다. 체력이 8 이하인 적은 사망합니다.,DEFAULT,1,0,ENEMY,SINGLE,Slashing_blood_v2
+불굴,6,5번의 피해를 받는 동안 체력이 1 이하로 내려가지 않습니다. 5번의 피해를 받고 난 이후엔 주변 적을 2칸 밀어내며 방어도 4를 얻습니다.,ALL,20,0,ALL,NONE,Buff_04_v2

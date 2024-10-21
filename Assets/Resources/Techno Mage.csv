@@ -1,0 +1,16 @@
+Name,Cost,Text,Type,RangeIndex1,RangeIndex2,target,effect index
+rupture,0,Deal 1 damage to all targets within 1 hex radius.,SIX,2,0,TILE,Explosion_blood_v2
+unstable cask,1,Deal 1 damage to enemies within 1 hex radius.,SIX,2,0,ENEMY,Explosion_02_v2
+corrosive flask,1,"Deal 1 damage to enemy targets.If the target has defences, deals 2 additional damage.",NONE,1,0,ENEMY,Explosion_wind_v2
+reassemble,1,Deals 1 damage to enemy targets. Drain 1 AP from the target.,NONE,1,0,ENEMY,Explosion_04_v2
+call lightning,2,Deal 2 damage to all enemies.,ALL,15,0,TILE,Explosion_lightning_v2
+overcharge,2,"Take 1 damage every 15 seconds. During this effect, all attacks deal an additional damage. If the character receives 3 damage from any source, the effect ends.",NONE,1,0,NONE,Buff_lightning_v2
+focus,2,Draw 1 card whenever use a card. This effect last until draw 3 cards with this effect.,NONE,1,0,NONE,Buff_01_v2
+transference,2,"After using this card, transfer all of the last AP to target allies. APs transferred with this effect may exceed AP limits.",ALL,1,0,FRIENDLY,Buff_02_v2
+chain reaction,3,Deals 4 damage to enemy defenses in 2 hex radius. .,SIX,3,0,ENEMY,Explosion_01_v2
+trail of fire,4,Forms a fire wall that lasts for 30 seconds. Enemies and allies within the range of the fire wall suffered 2 damage every 10 seconds.,LINE,4,0,TILE,Buff_fire_v2
+gravity field,5,"Destroy all projections for 15 seconds within your 1 hex range, forming a veil that the enemy cannot pass through and you become immovable. Enemy that was already in range will be pushed out of range.",SIX,2,0,NONE,Buff_06_v2
+cataclysm,8,"After 15 seconds, deal 8 damage to enemies within 2 hexes, ignoring defense.",SIX,3,0,TILE,Explosion_03_v2
+superconductor,4,Specify the target and deal 2 damage. Deal 2 damage to allies or enemies within 1 hex of the target location after 10 seconds.,SIX,2,0,ENEMY,Explosion_dark_v2
+14,,,,,,,
+15,,,,,,,

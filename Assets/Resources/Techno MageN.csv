@@ -1,0 +1,14 @@
+Name,Cost,Text,Type,RangeIndex1,RangeIndex2,Target,Object,effect index
+파열,1,일직선 상의 3헥스 내의 모든 대상에게 1의 피해를 입힙니다.,SIX,1,0,ALL,NONE,Explosion_blood_v2
+불안정한 폭발물,1,적 대상을 골라 2의 피해를 입힙니다.,DEFAULT,2,0,ENEMY,SINGLE,Explosion_02_v2
+부식성 플라스크,1,적 대상을 골라 3초간 3의 피해를 줍니다.,DEFAULT,1,0,ENEMY,SINGLE,Explosion_wind_v2
+재조립,1,대상을 골라 1의 피해를 입힙니다. 자신은 2의 AP를 회복합니다.,DEFAULT,1,0,ENEMY,SINGLE,Explosion_04_v2
+낙뢰 유도,3,모든 적 대상에게 2의 피해를 입힙니다,ALL,20,0,ALL,ENEMY,Explosion_lightning_v2
+과부화,2,카드를 사용 시 자신은 15초마다 1의 피해를 받습니다. 이 효과가 지속되는 동안 모든 공격이 1의 추가 피해를 입힙니다. 캐릭터가 어떤 방식으로든 3의 피해를 입으면 효과가 종료됩니다.,ALL,1,0,ALL,NONE,Buff_lightning_v2
+집중,2,카드를 사용할 때마다 자신이 드로우를 1장 합니다. 이 효과로 카드를 3장 뽑을 때까지 지속됩니다.,ALL,1,0,ALL,NONE,Buff_01_v2
+전이,3,이 카드를 사용하고 난 뒤 남은 행동력을 다른 모든 아군에게 부여합니다. 부여된 행동력은 최대 행동력을 초과할 수 있습니다.,ALL,20,0,FRIENDLY,SINGLE,Buff_02_v2
+연쇄반응,3,적 대상을 골라 대상이 된 적의 2헥스 범위내에 또 다른 적이 있을 경우 그 적들 모두에게 2의  피해를 줍니다. 만약 대상의 주변에 또 다른 적이 없을 경우 대신 3의 AP를 회복합니다,DEFAULT,3,0,ENEMY,SINGLE,Explosion_01_v2
+불의 길,3,30초간 유지되는 3헥스 길이의 불의 장막을 형성합니다. 불의 장막의 범위 내에 있는 적 또는 아군은 7초마다 2의 피해를 입습니다.,SIX,4,0,TILE,NONE,Buff_fire_v2
+중력장,4,자신의 1헥스 범위내에 15초간 모든 투사체를 파괴하고 적군이 통과할 수 없는 장막을 형성하고 이동 불가 상태가 됩니다. 이미 범위내에 있던 적은 범위 밖으로 밀려납니다.,DEFAULT,2,0,ALL,NONE,Buff_06_v2
+대재앙,6,15초 뒤 2 헥스 범위 내의 적에게 방어도를 무시하는 8의 피해를 입힙니다. 이 카드는 자신에게 적용된 피해 증폭 효과를 두배로 받습니다.,DEFAULT,7,0,ALL,NONE,Explosion_03_v2
+초전도체,4,적 대상을 지정하여 2의 피해를 줍니다. 6초 뒤 대상이 있던 위치에서 1헥스 범위 내의 모든 적에게 2의 피해를 줍니다.,DEFAULT,3,0,ENEMY,SINGLE,Explosion_dark_v2
